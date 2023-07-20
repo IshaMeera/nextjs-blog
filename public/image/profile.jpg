@@ -1,0 +1,11 @@
+import Image from 'next/image';
+
+const YourComponent = () => (
+   
+    <Image
+      src="https://depositphotos.com/stock-photos/cartoon.html"
+      height={144}
+      width={144}
+      alt="Your Name"
+      />
+);
