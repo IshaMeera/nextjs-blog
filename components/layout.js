@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
-import utilStyles from '/styles/utils.module.css';
+import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Isha';
@@ -44,7 +44,7 @@ export default function Layout({children, home}) {
             <Image
              priority
              src="/images/profile.jpg"
-             className={utility.borderCicle}
+             className={utilStyles.borderCicle}
              height={108}
              width={108}
              alt=""
